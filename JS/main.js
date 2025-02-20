@@ -95,7 +95,7 @@ const sr = ScrollReveal({
   delay: 300,
   // reset: true // animation repeat
 });
-sr.reveal(`.popular__swiper, .footer__container, .footer__copy`);
+sr.reveal(`.popular__swiper, .footer__container`);
 sr.reveal(`.home__shape`, { origin: "bottom" });
 sr.reveal(`.home__coffee`, { delay: 1000, distance: "200px", duration: 1500 });
 sr.reveal(`.home__splash`, { delay: 1600, scale: 0, duration: 1500 });
